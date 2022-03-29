@@ -1,0 +1,3 @@
+-SMB stands for Server Message Block Protocol which is a client-server communication protocol used for sharing access to files, printers, serial ports and other resources on a network.
+- Clients connect to the server through a response-request protocol, see [[The OSI (Open Systems Interconnection) Model#TCP]] and [[TCP IP Model#TCP continued The Three Way Handshake]] for more information. Although technically clients will use netBIOS over TCP\/IP not TCP\/IP directly
+- SMBclient is used for accessing SMB servers, for more information about accessing and exploiting SMB visit [[SMB Hacking Tools]]

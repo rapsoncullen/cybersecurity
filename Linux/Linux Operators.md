@@ -1,0 +1,23 @@
+- && 
+	- AND
+	- Allows you to run one command and then a command right after it given the first one is completed successfully
+- &
+	- BACKGROUND
+	- Allows you to run whatever command you are giving in the background
+- $
+	- VARIABLE
+	- Allows you to call any environment variable using $\<variable\>
+	- `export <varname>=<value>` allows you to create a new environment variable. PS1 is the variable for what your prompt is in the command line.
+- |
+	- PIPE
+	- Allows you to take the output from a command and use it as the input for the next command
+- ;
+	- END LINE
+	- Allows you to put multiple commands in without worrying about one failing and messing up the chain
+- >
+	- TRANSFER
+	- Allows you to save the output of a command directly to a new file **WARNING** if the file already exists you will erase the file and save the output of the command
+- >>
+	- APPEND
+	- Allows you to append the output of a command directly to a file
+- 

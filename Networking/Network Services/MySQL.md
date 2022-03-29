@@ -1,0 +1,2 @@
+- MySQL is an SQL server system that makes up the server side of many important websites. It is a pretty standard SQL distribution that uses the client-server model in order to get data to the people accessing the website.
+- For more information about exploiting MySQL see [[MySQL Hacking Tools]]

@@ -1,0 +1,2 @@
+## Default Passwords
+- Default passwords are a common example of security misconfiguration. It is very often you will come across something like an apache web server that still has it's default password active.

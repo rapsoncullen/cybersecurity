@@ -1,0 +1,1 @@
+- Always just try to run sudo once to see if there is even a password protecting root access

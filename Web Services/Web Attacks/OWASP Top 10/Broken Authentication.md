@@ -1,0 +1,3 @@
+- [[What is the OWASP Top 10#Broken Authentication]] Is when a web application has flaws in the way it authenticates the user. This page is for common attacks against websites with Broken Authentication
+## Re-Registration
+- Re-Registration is the process through which you register an existing user with slightly different  information. Typically this is done by entering in the same username but in a slightly different way that won't be caught such as an additional space before the name and then all the rest of the information being things you can remember. If Re-Registration isn't fixed this will allow you to change the user's information.

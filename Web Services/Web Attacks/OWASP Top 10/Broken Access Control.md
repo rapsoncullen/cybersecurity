@@ -1,0 +1,3 @@
+## IDOR
+- IDOR or Insecure Direct Object Reference is an exploit that uses a misconfiguration in the way user input is handled. IDOR is a type of access control vulnerability.
+- Say a site like, idk Parler for example were to keep to keep something like username in it's URL like https://parler.com/data?user=tom%20cotton you could simply change the url and access another account by manipulating the user variable.

@@ -1,0 +1,2 @@
+- To run a binary simply type it's path into the terminal! For example ./\<file\>
+- To run a C file use [[Linux Commands#clang]]

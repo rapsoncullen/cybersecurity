@@ -1,0 +1,3 @@
+- Domain names are really just placeholders that are exchanged out for the real address at a DNS (Domain Name System)
+## Domain Name Server
+- First your computer will look to see if it is the ip address associated with a domain in it's local cache then it will go and ask a recursive DNS server. If the recursive DNS server can't find it then you are sent to root name servers which keep track of the Top-Level-Domain servers that handle extensions such as .com or .co.uk

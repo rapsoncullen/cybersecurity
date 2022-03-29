@@ -1,0 +1,3 @@
+## Anonymous
+- This is not a tool so much a simple strategy. If you use nmap in verbose mode and it says the ftp server allows anonymous access you can login using the username "anonymous" and no password. You will probably not have all permissions however.
+- If possible if you can get a username from the anonymous login or other sources a brute force attack using HYDRA can work. For further information see [[Basic HYDRA]]

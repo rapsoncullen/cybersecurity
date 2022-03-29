@@ -1,0 +1,1 @@
+- Comparer is a very simple tool, it compares different pieces of data such as responses, site maps or proxy histories!

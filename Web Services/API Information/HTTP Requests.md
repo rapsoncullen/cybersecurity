@@ -1,0 +1,6 @@
+- HTTP Requests are messages sent from a client to a server to get or manipulate data.
+- HTTP Requests are set up as follows
+	- A domain ( [[Domain Name]] )
+	- A resource
+	- A [[HTTP Request Methods]]
+	- A Header (Extra information)

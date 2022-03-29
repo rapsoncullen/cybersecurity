@@ -1,0 +1,2 @@
+- Ever computer has a total of 65535 ports with which it can establish connections with other devices. Some of these ports are fixed and can be found in [[Common Ports]]
+- When you computer connects to an established port on a server or other machine it will open up a random port on your machine to connect.

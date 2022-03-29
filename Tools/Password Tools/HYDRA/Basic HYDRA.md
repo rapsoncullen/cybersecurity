@@ -1,0 +1,12 @@
+- Hydra is a very fast online password cracking tool which can use dictionary attacks against more than 50 Protocols including Telnet, RDP, SSH, FTP, HTTP, HTTPS, SMB, etc.
+- The basic syntax for Hydra is as follows, 
+	- hydra -t \<number of parallel connections per target\> -l \<user\> -P \<path to dictionary\> -vV  \<machine ip\> \<protocol\>
+	- Common or important tags
+		- -t \<number of parallel connections per target\>
+			- Sets the number of parallel connections against the target
+		- -l \<user\>
+			- Hydra is a password cracking tool not a username cracking tool, you have to supply it a username using -l \<user\>
+		- -P \<path\>
+			- Hydra uses dictionaries to make it's attacks. You need to assign it a wordlist. In kali linux the default path for wordlists is /usr/share/wordlists/
+		- -vV
+			- Turns on very verbose mode, always a plus for almost any command.

@@ -1,0 +1,3 @@
+- Before you hack an SMTP server it is smart to get the exact version. For that you are going to want to use the smtp_version module in [[Basic Metasploit]]
+- Once you have the version it might be smart to enumerate any users you can possibly get out of the SMTP server. This can be done manually over Telnet but it is far easier to use the smtp_enum module in [[Basic Metasploit]]
+- If smtp_enum can get a hold of a username you may be able to brute force the password using [[Basic HYDRA]]

@@ -1,0 +1,3 @@
+- NMAP is a powerful enumeration tool for scanning for different ports
+- NMAP will connect to all 65535 ports of a target machine and will figure out if each port is open, closed or filtered
+- NMAP basic syntax is nmap \<switch\>

@@ -1,0 +1,102 @@
+{
+  "main": {
+    "id": "6cc214a760319588",
+    "type": "split",
+    "children": [
+      {
+        "id": "944d37b9d4afba44",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Tools/Networking Tools/NMAP/NMAP Switches.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8ee917c9c5f6242b",
+    "type": "split",
+    "children": [
+      {
+        "id": "34e4ed0e5fa38ff9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "343550ec5351a052",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "96a789fa8acab54f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "common ports",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": true,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "fc67f73ebc3a12fc",
+    "type": "split",
+    "children": [
+      {
+        "id": "8e6aad46897458d5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6b2099520aca830d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Tools/Networking Tools/NMAP/NMAP Switches.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "944d37b9d4afba44",
+  "lastOpenFiles": [
+    "Tools/Networking Tools/NMAP/NMAP Switches.md",
+    "Tools/Networking Tools/NMAP/NMAP Scripting.md",
+    "Tools/Networking Tools/NMAP/Basic NMAP.md",
+    "Git/Github.md",
+    "Git/Basic Git.md",
+    "Git/Untitled.md",
+    "Linux/Linux Operators.md",
+    "Linux/Bash Scripting.md",
+    "Basic Cybersecurity Terms.md",
+    "Tools/Well Rounded Tools/Metasploit/Basic Metasploit.md"
+  ]
+}

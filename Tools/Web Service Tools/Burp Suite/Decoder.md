@@ -1,0 +1,1 @@
+- The decoder is one of the most simple tools in Burp Suite. It decodes and encodes! It is useful for dealing with keys.

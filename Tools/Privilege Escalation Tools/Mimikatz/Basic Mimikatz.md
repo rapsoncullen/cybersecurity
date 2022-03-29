@@ -1,0 +1,2 @@
+- Mimikatz, now called Kiwi is a service for privilege escalation within windows machines.
+- https://www.varonis.com/blog/what-is-mimikatz/

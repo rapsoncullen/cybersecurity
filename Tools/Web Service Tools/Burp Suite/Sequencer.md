@@ -1,0 +1,6 @@
+- Sequencer is a tool for analyzing the quality of randomness in an application's sessions tokens and other important data items that are otherwise supposed to be unpredictable.
+- Some commonly analyzed items are
+	- Session tokens
+	- Anti-CSRF ( [[Basic Cybersecurity Terms#CSRF]] ) tokens
+	- Password reset tokens
+- Once you have sent an [[HTTP Requests]] from the proxy that has what you want such as a set-cookie header response all you have to do is click live capture now and then analyze. Once you have done this Burp Suite's Sequencer will go ahead and collect a bunch of tokens and display them for you

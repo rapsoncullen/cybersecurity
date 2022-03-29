@@ -1,0 +1,19 @@
+- Before you can do anything to an [[NFS (Network File System)]] server first your system needs a directory where all the content shared by the host server in the export folder can be accessed. This can be done using the command 
+	- sudo mount -t nfs \<ip\>:\<share\> /tmp/mount/ -nolock
+	- The important tags for this command are as follows
+		- -t nfs
+			- Specifies you want to mount an NFS device
+		- \<share\>
+			- Specifies the name of the share we wish to mount
+			- If you don't know the share you can use the showmount command with the syntax showmount -e \<ip\>
+		- -nolock
+			- Specifies not to use NLM locking
+- From here you can hopefully find useful files for enumeration and hacking other services such as [[SSH]]
+- Keep in mind by default NFS has [[NFS (Network File System)#Root Squashing]] enabled. This means you have to go a slightly round about way to get a shell open.
+	- NFS doesn't let you get root access but it does let you change the permissions of whatever you upload by default.
+	- If you have hacked another service such as [[SSH]] you can likely use NFS to upload a bash shell executable and change the permissions to make it executable. 
+		- To change the permissions like this it needs to be a SUID so you are going to need to use sudo chmod u+s \<executable\> && sudo chmod +x \<executable\>
+	- Then you can go back to [[SSH]] and execute the bash shell executable using ./\<executable\> -p
+		- -p is used to persist the permissions because otherwise it might drop the permissions.
+	- When that is all done you should be able to cd /root and get to the root folder if you need a tag
+- 

@@ -1,0 +1,13 @@
+- Github is the primary website for storing git repositories for open source projects. In order to create a github repository and upload to it do the following
+	- Initialize a git repository on your computer using [[Basic Git#git init]]
+	- Create a git repository on github, no need to make it public
+	- Use the following commands
+		- git remote add origin https://github.com/\<username\>/\<file name\>.git
+			- This adds a remote repository at your github repository location and names it origin 
+		- git branch -M main
+			- This renames the main git branch to main
+		- git push -u origin main
+			- This pushes your main branch to the remote location you named origin
+			- This will ask for your github username and password
+# Starting in August
+- Instead of passwords you will be using access tokens found in the Developer Settings of github

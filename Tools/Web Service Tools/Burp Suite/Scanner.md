@@ -1,0 +1,2 @@
+- Automated web vulnerability scanner that can highlight areas of the application
+- **NOT IN COMMUNITY VERSION**

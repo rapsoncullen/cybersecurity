@@ -1,0 +1,14 @@
+- 12:24 PM
+	- I ran an NMAP scan and found two open ports
+		- [[Common Ports#PORT 22 SSH]]
+			- syn-ack OpenSSH 7.2p2 Ubuntu 4ubuntu2.6 (Ubuntu Linux; protocol 2.0)
+		- [[Common Ports#PORT 80 HTTP WEBSERVICES]]
+			- syn-ack Apache httpd 2.4.18 ((Ubuntu))
+- 12:26 PM
+	- Inspected the source code and found out that the user had put the username [[Usernames and Passwords#R1ck Rul4s]] in a comment so that they could remember it.
+- 1:30 PM
+	- Ran burpsuite to see what I could find, nothing interesting
+- 1:31 PM
+	- Started dirbuster to find any hidden directories
+		- Found [[Important Hidden Directories#login php]]
+			- /login.php has a login portal, could be useful to test the username from before

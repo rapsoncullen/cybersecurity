@@ -1,0 +1,1 @@
+- MySQL should not be your first choice of a target. It is typically more secure than other Network Services such as SSH.

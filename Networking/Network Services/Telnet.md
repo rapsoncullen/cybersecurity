@@ -1,0 +1,2 @@
+- Telnet is an application protocol which allows you to connect to and execute commands on a remote machine that is hosting a telnet server
+- Telnet sends information in plain english unencrypted so it is almost never used anymore. If someone is using Telnet it is almost certainly exploitable through metasploit
